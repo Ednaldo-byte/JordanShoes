@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+:root {
+  --black: #181818;
+  --white: #f9f9f9;
+  --white200: #ebe9ea;
+  --gray: #474747;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  width: 100%;
+  height: auto;
+}
+header .mensage {
+  animation: lights 3s linear infinite ;
+  font-size: 1.6rem;
+}
+header .title {
+  background: var(--white);
+  font-size: 2.4rem;
+}
+header .title,
+header .mensage {
+  text-align: center;
+  padding: 1.45rem 0 1.45rem 0;
+}
+
+main .head {
+  height: 37.8rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+
+  background: url(../assets/Group\ 1416.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .head .text{
+  width: 40%;
+  height: auto;
+  padding-left: 10rem;
+
+  position: relative;
+
+  color: var(--white);
+}
+h1{
+  font-size: 3.2rem;
+}
+p{
+  font-size: 1.8rem;
+  line-height: 35px;
+}
+
+.products{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5.8rem 0 10rem;
+}
+
+.products ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.products ul .section{
+  display: flex;
+  flex-direction: row;
+  margin: 3rem 0 0;
+}
+
+.products ul .section .subsection{
+  display: flex;
+  flex-direction: row;
+}
+
+.products li{
+  background: var(--white200);
+  width: 30rem;
+  height: 30rem;
+  margin: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button{
+  padding: 2rem 5rem;
+  background-color: var(--black);
+  color: var(--white);
+  border-radius: .5rem;
+  font-size: 16px;
+  text-decoration: none;
+}
+.button:hover{
+  background-color: var(--gray);
+  transition: 200ms;
+}
+
+.products li img:hover{
+  transform: translatey(-5px);
+  transition: 400ms;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  color: var(--white);
+  background-color: var(--black);
+  padding: 1.3rem 0 1.3rem 0;
+  text-align: center;
+}
+
+@media (max-width: 700px){
+  .products ul .section{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1380px){
+  main .head .text{
+    width: 90vw;
+  }
+  main .head .text h1{
+    font-size: 26px;
+  }
+  main .head .text p{
+    font-size: 13px;
+    line-height: 28px;
+  }
+  main .head{
+    background-image: url(../assets/Group\ 1418.png);
+    background-size: 100%;
+  }
+  main .head{
+    max-height: 60vw;
+  }
+  main .head .text{
+    padding: 10vw;
+  }
+  .products p{
+    text-align: center;
+    margin: 2rem;
+  }
+  ul{
+    width: 80vw;
+    align-items: center;
+  }
+  .products ul .section .subsection{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@keyframes lights{
+  0%{
+    background: var(--black);
+    color: var(--white);
+  }
+  50%{
+    background: var(--white);
+    color: var(--black);
+  }
+  100%{
+    background: var(--black);
+    color: var(--white);
+  }
+}

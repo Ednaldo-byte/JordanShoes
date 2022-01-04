@@ -1,9 +1,10 @@
-# JordanShoes
+# JordanShoes 
 <p align="center">
       <a href="#-projeto">🖥 Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <a href="#-tecnologias">👨‍💻 Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <a href="#-executar-o-projeto">🖇 Execução do Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
       <a href="#-licença">📃 Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+      <a href="#-licença">📌 Observações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
   <p><img src="home.png" style="width: 500px"></p>
@@ -22,3 +23,7 @@
 
   ##  📃 Licença
   Esse projeto possui licença MIT. Para mais detalhes consulte o arquivo [LICENSE](LICENSE.md)
+
+  ## 📌Observações
+  O projeto está com responsividade, mas detalhes podem mudar dependendo do **navegador**. Por exemplo, na meu notebook, as colunas da página estavam agrupadas em 4 no navegador Chrome, já no Firefox, estavam agrupadas em 2.
+ *<p>#dailyFrontend</p>*
